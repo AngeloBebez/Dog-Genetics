@@ -1,0 +1,139 @@
+* {
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(imagescssformulario/fundo.png);
+    background-repeat: repeat;
+    font-size: 1.4rem;
+    margin: 70px;
+}
+
+header {
+    background-color: #FFA500;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 1000;
+    display: inline-block;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+footer {
+    background-color: #FFA500;
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    margin-top: 12px;
+    bottom: 0;
+    left: 0;
+}
+
+.footer {
+    padding-left: 10px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 30px;
+        margin-top: 60px;
+    }
+
+    .img img {
+        width: 300px;
+    }
+
+    .voltar {
+        margin-bottom: 80px;
+    }
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 53px;
+    font-size: 1.4rem;
+}
+
+.header h1, .header img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header img {
+    float: right;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+form {
+    background-color: #FFA500;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+img {
+    border-radius: 10px;
+    width: 400px;
+}
+
+.img img {
+    box-shadow: 7px 10px 19px -5px rgba(0,0,0,0.75);
+}
+
+.img {
+    text-align: center;
+}
+
+.voltar p {
+    text-align: center;
+    font-size: 1.6rem;
+}

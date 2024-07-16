@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Formulário para Contato</title>
+    
+    <link rel="stylesheet" type="text/css" href="cssformulario/cssformulario.css">
+
+</head>
+
+<body>
+
+    <section class="header">
+        <header>
+            <h1>DOG GENETICS</h1>
+            <img src="imagesformulario/pata de cachorro.webp">   
+        </header>
+    </section>
+
+    <p class="form">
+        <label for="preferido">Qual seu cachorro preferido?</label><br>
+        <input type="text" id="preferido" name="preferido" placeholder="Digite seu cachorro preferido" size="8">
+    </p>
+
+    <p class="form">
+        <label for="preferido">Porquê?</label><br>
+        <input type="text" id="motivo" name="motivo" placeholder="Digite o motivo" size="8">
+    </p>
+
+    <label for="payment_method">Forma de Pagamento:</label>
+        <select id="payment_method" name="payment_method" required>
+            <option value="" disabled selected>Escolha uma forma de pagamento</option>
+            <option value="pix">Pix</option>
+            <option value="credito">Cartão de Crédito</option>
+            <option value="debito">Cartão de Débito</option>
+            <option value="dinheiro">Dinheiro</option>
+        </select>
+
+        <section class="img">
+        <img src="imagesformulario/formulariosimagem.jpeg">
+    </section>
+
+    <section class="voltar">
+        <a href="../index.html"><p>Voltar</p></a>
+    </section>
+
+        <footer>
+            <p class="footer">&copy; DOGS GENETICS 2024. </p>
+        </footer>
+
+</body>

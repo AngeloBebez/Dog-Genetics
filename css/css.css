@@ -1,0 +1,254 @@
+    * {
+        border: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background-image: url(imagescss/fundo.png);
+        background-repeat: repeat;
+        font-size: 1.4rem;
+        margin: 70px;
+    }
+
+    header {
+        background-color: #FFA500;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        z-index: 1000;
+        display: inline-block;
+        margin: 0;
+    }
+    
+    h1 {
+        color: white;
+        font-weight: normal;
+        font-size: 2rem;
+        margin: 10px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .fucinhos p {
+        display: inline-block;
+        vertical-align: right;
+        width: 70%;
+        margin-left: 30px;
+        text-align: justify;
+    }
+
+    .fucinhos img {
+        width: 300px;
+        height: auto;
+        vertical-align: top;
+        text-align: left;
+        margin-left: 0px;
+        display: inline-block;
+        margin: 0 auto;
+        box-shadow: 7px 10px 19px -5px rgba(0,0,0,0.75);
+        border-radius: 10px;
+    }
+    
+    footer {
+        background-color: #FFA500;
+        color: white;
+        text-align: left;
+        padding: 10px 0;
+        width: 100%;
+        margin: 0;
+        position: fixed;
+        margin-top: 12px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .footer {
+        padding-left: 10px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+        margin: 10px;
+    }
+
+    .fotos img {
+        border-radius: 1000px;
+        width: 200px;
+        padding: 0;
+        box-shadow: 5px 5px 29px -5px rgba(0,0,0,0.75);
+    }
+
+    @media screen and (max-width: 600px) {
+        .fucinhos img {
+        max-width: 250px;
+        text-align: center;
+        display: block;
+        }
+
+        .fucinhos p {
+        margin-left: 50px;
+        display: block;
+        }
+
+        .falias img {
+            width: 300px;
+        }
+
+        .redirecionamento img {
+        max-width: 300px;
+        }
+
+        body {
+            margin: 20px;
+        }
+}
+
+    .fotos {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 0fr));
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        margin: 0;
+        gap: 30px;
+    }
+
+    .devs h1 {
+        color: #000000;
+        font-weight: bolder;
+        text-align: center;
+        background-color: #FFA500;
+        border-radius: 5px;
+        padding: 3px;
+    }
+
+    .devs {
+        background-color: #ffd583;
+        border-radius: 15px;
+        padding-bottom: 15px;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .header h1 {
+        display: inline-block;
+        vertical-align: -webkit-baseline-middle;
+        margin-left: 0px;
+        font-size: 1.4rem;
+    }
+
+    .header h1, .header img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .header img {
+        float: right;
+        width: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 12px;
+        font-size: 1.1rem;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .pog p {
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .falias {
+        text-align: center;
+    }
+
+    .falias img {
+        box-shadow: 5px 5px 29px -5px rgba(0,0,0,0.75);
+        border-radius: 5px;
+        border-color: #000000 50px;
+    }
+
+    .raio {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .redirecionamento {
+        text-align: center;
+    }
+
+    .redirecionamento img {
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 5px 5px 29px -5px rgba(0,0,0,0.75);
+    }
+
+    .redirecionamento p {
+        text-align: center;
+    }
+
+    .cima button {
+        background-color: #808080; 
+        color: white;
+        padding: 5px 10px; 
+        border: none; 
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #696969;
+    }
+
+    .baixo button {
+        padding: 10px 15px;
+        cursor: pointer; 
+        border-radius: 5px;
+    }
+
+    .header p {
+        font-size: 15px;
+        display: inline;
+        float: left;
+        color: #dddddd;
+    }
+
+    .link a {
+        color: white;
+        border-radius: 5px;
+        transition: background-color 0.3s, transform 0.3s;
+        display: inline-block;
+    }
+
+    .link a:hover {
+        background-color: #ff8c00;
+        transform: scale(1.05);
+    }
+
+    .link a:active {
+        transform: scale(0.95);
+    }

@@ -1,0 +1,156 @@
+* {
+    border: 0px;
+    padding: 0px;
+    }
+
+body {
+    background-image: url(imagescsscachrros/fundo.png);
+    background-repeat: repeat;
+    margin: 10px;
+    font-size: 1.4rem;
+}
+
+header {
+    background-color: #FFA500;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    z-index: 1000;
+}
+
+h1, h2, h4 {
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 0px;
+    font-weight: normal;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+h2 {
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    padding: 10px;
+    font-family: 'DM Serif Display', serif;
+    color: black;
+    font-size: 1.4rem;
+    text-align: center; 
+}
+
+h4 {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Times New Roman';
+    color: black;
+    font-size: 1.4rem;
+    text-align: left; 
+}
+
+p {
+    font-family: 'Times New Roman';
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.0rem;
+}
+
+footer {
+    background-color: #FFA500;
+    color: white;
+    text-align: left;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    margin-top: 12px;
+    bottom: 0;
+}
+
+.footer {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.img {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    justify-content: center; 
+    width: 100%;
+    gap: 10px;
+    justify-items: center;
+}
+
+.img img {
+    width: 90%; 
+    height: 230px; 
+    max-width: 100%; 
+}
+
+body {
+    width: 100%; 
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    width: 100%; 
+    height: 230px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 53px;
+    font-size: 1.4rem;
+}
+
+.header h1, .header img {
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+.header img {
+    float: right;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+
+.card p {
+    text-align: center;
+}
+
+.voltar p {
+    text-align: center;
+    font-size: 1.6rem;
+}
